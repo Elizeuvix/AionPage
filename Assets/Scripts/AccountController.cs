@@ -471,7 +471,7 @@ public class AccountController : MonoBehaviour
                 menuLegion = "Legions";
                 menuDownload = "Downloads";
                 menuForum = "Forum";
-                menuDonation = "Donation";
+                menuDonation = "Donate";
                 menuRegister = "Register";
                 messCreateAccount = "Account created successfully!<br>Now download the Aion client and have fun!<br>Ask your questions in our forum.<br>Enjoy!";
                 break;

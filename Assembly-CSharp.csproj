@@ -61,7 +61,6 @@
     <Compile Include="Assets\Scripts\LauncherModule.cs" />
     <Compile Include="Assets\Scripts\PanelController.cs" />
     <Compile Include="Assets\Scripts\ItemBulletinConfig.cs" />
-    <Compile Include="Assets\Scripts\HashcodeGenerator.cs" />
     <Compile Include="Assets\Scripts\AccountController.cs" />
   </ItemGroup>
   <ItemGroup>
