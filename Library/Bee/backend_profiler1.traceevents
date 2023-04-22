@@ -1,0 +1,500 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682101414188724, "dur":4741, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414193493, "dur":751, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682101414194296, "dur":68, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682101414194364, "dur":885, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682101414195320, "dur":1931, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414197251, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863025, "dur":263, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863288, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863303, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863308, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863315, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863317, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863330, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863333, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863339, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863341, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863350, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863352, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863360, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863362, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863369, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863371, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863380, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863396, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414863421, "dur":14745, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682101414197132, "dur":614, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414197746, "dur":8851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414206623, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1682101414207102, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414216763, "dur":7996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1682101414224858, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1682101414225100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414225115, "dur":4911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1682101414230153, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1682101414230437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414230456, "dur":10082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1682101414240692, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414240759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414240776, "dur":22313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414263155, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414263279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414263297, "dur":17960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414281320, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414281430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414281447, "dur":10890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414292372, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414292429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414292445, "dur":10273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414302760, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414302825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414302836, "dur":9348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414312235, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414312284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414312302, "dur":9253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414321595, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414321642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414321659, "dur":8984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414330686, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414330925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414330941, "dur":5977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414336948, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414336994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414337006, "dur":8586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414345635, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414345691, "dur":72, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414345844, "dur":39886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414385751, "dur":3861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414389619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414389631, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414391209, "dur":107862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414499590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414499603, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414501289, "dur":1602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414502898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414502910, "dur":7569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414510493, "dur":2037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414512537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414512549, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414513912, "dur":47146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414561065, "dur":39, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414561114, "dur":8352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414569499, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414569529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414569537, "dur":10357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414579921, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414579943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414579952, "dur":8733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414588713, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414588746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414588756, "dur":14927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414603707, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414603739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414603754, "dur":5534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414609308, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414609335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414609376, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682101414613789, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682101414613812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414613823, "dur":12788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682101414626641, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682101414626692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682101414626702, "dur":6065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682101414632788, "dur":230208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414196308, "dur":1136, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414197444, "dur":9493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414206938, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682101414207190, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414220258, "dur":7261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682101414227689, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682101414228014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414228032, "dur":4902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682101414233027, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414233881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414233894, "dur":67497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414301532, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414301597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414301614, "dur":7446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414309094, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414309153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414309323, "dur":7961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414317323, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414317373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414317389, "dur":8776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414326197, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414326255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414326272, "dur":5764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414332067, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414332114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414332128, "dur":4668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414336834, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414336983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414337000, "dur":5800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414342835, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414342876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414342893, "dur":4765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414347693, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414347732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414347746, "dur":7848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414355623, "dur":101810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414457440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414457451, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414458948, "dur":45842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414504797, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414504811, "dur":5457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414510289, "dur":38403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414548698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414548708, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414550430, "dur":47825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414598261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414598272, "dur":7841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414606143, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414606176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414606185, "dur":7574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682101414613781, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1682101414613813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414613838, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1682101414616736, "dur":18943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1682101414635686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682101414635697, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1682101414637355, "dur":225648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414196041, "dur":1290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414197341, "dur":9250, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414206622, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1682101414206656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414208230, "dur":1289, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1682101414209531, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1682101414209600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414210169, "dur":6641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1682101414216815, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1682101414217128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414217289, "dur":7529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1682101414224936, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682101414225192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414225211, "dur":4380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682101414229685, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1682101414229922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414229942, "dur":3779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1682101414233832, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682101414233890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414235900, "dur":24559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682101414260499, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682101414260553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414260570, "dur":5141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682101414265754, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682101414265812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414265911, "dur":19429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682101414285384, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682101414285450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414285467, "dur":7019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682101414292519, "dur":312965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682101414605488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414605497, "dur":9701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682101414615338, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1682101414616028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414616038, "dur":11342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1682101414627399, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1682101414627420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682101414627428, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1682101414629771, "dur":233229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414196357, "dur":1133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414197491, "dur":9125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414206621, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1682101414207336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414217599, "dur":8104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1682101414225818, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1682101414226613, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414226754, "dur":6485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1682101414233408, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1682101414233671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414235259, "dur":52857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1682101414288255, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682101414288666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414288683, "dur":17125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682101414305841, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682101414305891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414305907, "dur":41522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682101414347462, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682101414347562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414347577, "dur":152897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682101414500655, "dur":97170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682101414597832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414597845, "dur":12129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682101414609995, "dur":251191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682101414861193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682101414861204, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682101414862962, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1682101414862965, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414196558, "dur":965, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414197523, "dur":9083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414206623, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682101414207106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414216032, "dur":14007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682101414230164, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414230441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414231250, "dur":5694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414237075, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414237148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414239443, "dur":21977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414261451, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414261506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414261522, "dur":13619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414275200, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414275257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414275273, "dur":16197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414291510, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414291570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414291587, "dur":11010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414302645, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414302749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414302764, "dur":13516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414316331, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414316412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414316426, "dur":31130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414347592, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414347627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414347642, "dur":8122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414355788, "dur":186952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414542746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414542757, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414545663, "dur":2531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414548199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414548209, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414550819, "dur":1943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414552769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414552780, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414555761, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414555782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414555792, "dur":13182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414568994, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414569016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414569025, "dur":4543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414573588, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414573637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414573648, "dur":3794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414577464, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414577496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414577508, "dur":4412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414581942, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414581974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414581987, "dur":8733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414590743, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414590765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414590775, "dur":9208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414600001, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414600030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414600040, "dur":9154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414609218, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414609249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414609275, "dur":15059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682101414624377, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1682101414624401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414624410, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1682101414628001, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1682101414628241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682101414628249, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1682101414630150, "dur":232852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414196836, "dur":756, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414197592, "dur":9017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414206621, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682101414207065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414216047, "dur":9297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682101414225523, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1682101414225815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414227658, "dur":3948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1682101414231729, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414232018, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414232351, "dur":34553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414267034, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414267102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414267118, "dur":13564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414280715, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414280762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414280779, "dur":5055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414285869, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414285930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414285944, "dur":8757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414294744, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414294783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414294799, "dur":7404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414302245, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414302286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414302303, "dur":6647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414308999, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414309056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414309073, "dur":7071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414316180, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414316218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414316231, "dur":9495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414325790, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414326063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414326079, "dur":7162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414333276, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414333324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414333340, "dur":4736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414338124, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414338168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414338183, "dur":5237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414343452, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414343511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414343525, "dur":3513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414347075, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414347117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414347133, "dur":4853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414352014, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414352055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414352069, "dur":5759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414357857, "dur":190104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414547968, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414547982, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414550833, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414550865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414550874, "dur":11038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414561931, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414561976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414562020, "dur":4848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414566901, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414566925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414566935, "dur":6596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414573560, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414573584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414573597, "dur":5905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414579523, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414579584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414579595, "dur":4388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414584007, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414584030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414584041, "dur":15468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414599532, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414599554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414599564, "dur":5803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414605390, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414605412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414605424, "dur":5183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682101414610629, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1682101414610951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414611947, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1682101414614013, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682101414614034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414614042, "dur":13018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682101414627081, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1682101414627102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682101414627110, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1682101414629402, "dur":233620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414197096, "dur":573, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414197669, "dur":8934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414206620, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1682101414207075, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414217412, "dur":6957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1682101414224505, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1682101414224823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414224843, "dur":3731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1682101414228695, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1682101414228976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414228997, "dur":4220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1682101414233315, "dur":1148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1682101414234472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414234485, "dur":17749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1682101414252369, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414252477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414252495, "dur":8843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414261371, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414261416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414261431, "dur":13053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414274520, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414274692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414274709, "dur":10621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414285405, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414285461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414285476, "dur":7265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414292777, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414292825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414292840, "dur":6176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414299055, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414299095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414299113, "dur":5547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414304699, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414304773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414304790, "dur":10499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414315331, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414315384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414315401, "dur":9545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414324989, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414325219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414325235, "dur":5347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414330621, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414330662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414330680, "dur":4931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414335649, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414335690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414335707, "dur":4317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414340058, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414340120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414340137, "dur":7013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414347189, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414347241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414347256, "dur":11198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414358538, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414358593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414358607, "dur":11214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414369843, "dur":467166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414837019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682101414837140, "dur":13377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682101414850537, "dur":12461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414197354, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414197355, "dur":9300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414206656, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1682101414207031, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414216085, "dur":9632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1682101414225847, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1682101414226611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414226671, "dur":6578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1682101414233380, "dur":2583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher.exe" }}
+,{ "pid":12345, "tid":8, "ts":1682101414235973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414235986, "dur":9915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher.exe" }}
+,{ "pid":12345, "tid":8, "ts":1682101414245977, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414246045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414246063, "dur":22812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414268917, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414268959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414269011, "dur":24261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414293311, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414293371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414293385, "dur":8854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414302295, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414302504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414302522, "dur":13511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414316068, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414316117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414316133, "dur":9402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414325567, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414325620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414325636, "dur":5954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414331626, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414331665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414331681, "dur":5107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414336826, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414336866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414336881, "dur":5856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414342796, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414342911, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414342930, "dur":9239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414352200, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414352241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414352253, "dur":7073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414359352, "dur":142485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414501843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414501854, "dur":3437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414505310, "dur":110226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414615542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414615554, "dur":8196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682101414623773, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1682101414623813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414623823, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1682101414627534, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0 - Development/Builds/AionHub/HubLauncher_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1682101414627556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682101414627564, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0 - Development/Builds/AionHub/HubLauncher_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1682101414629825, "dur":233198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682101414882413, "dur":4280, "ph":"X", "name": "ProfilerWriteOutput" }
+,
